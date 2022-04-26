@@ -1,0 +1,476 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.font {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.wrapper {
+    height: 40px;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 6%;
+    margin-left: 8%;
+    margin-top: 48px;
+    color: rgb(200, 194, 202);
+}
+
+.typing-demo {
+    width: 300px;
+    animation: typing 2s steps(12), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: purple;
+}
+
+
+.line1 {
+    height: 2px;
+    width: 16px;
+    background: black;
+    right: 62px;
+    position: fixed;
+    display: none;
+}
+
+.hambarger {
+    display: none;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 12px 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: grey;
+
+}
+
+.detail {
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.detail h1 {
+    font-size: 50px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+span{
+    font-size: 50px;
+}
+span {
+    color: orange;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.detail h2 {
+    color: #fff;
+    font-size: 38px;
+    opacity: 0.4;
+    
+    font-family: 'Architects Daughter', cursive;
+    top: 150px;
+}
+
+
+.detail a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+#footer{
+    background-color: purple;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 20px;
+    
+}
+#footer a{
+    text-decoration: none;
+    color: black;
+}
+.image {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.image img:hover.shape {
+
+    bottom: 40px;
+
+
+}
+
+.image img:hover.boy {
+
+    left: 45%;
+
+
+}
+
+
+.aboutimage {
+    position: absolute;
+    right: 50%;
+    height: 425px;
+    width: 871px;
+    top: 17px;
+    left: -269px;
+}
+
+
+.secondpage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    display: flex;
+}
+
+.shape2 {
+    height: 380px;
+    width: 35%;
+    position: absolute;
+}
+
+.box {
+
+    position: absolute;
+    left: 60%;
+    top: 30vh;
+}
+
+.thirdpage h2 {
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.skillcontent {
+    display: flex;
+    position: absolute;
+    top: 65px;
+
+
+}
+
+
+.skills p {
+    margin-top: 34px;
+}
+
+.skills h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.videoimage img {
+    position: relative;
+    height: 130px;
+    border-radius: 5600px;
+}
+
+
+
+.thirdpage {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background: #eff4fd;
+    margin: auto;
+
+}
+
+.skilllist {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    position: relative;
+    background: #eff4fd;
+    top: 0px;
+    margin-top: 45px;
+    width: 50%;
+
+
+
+}
+
+.skilllist h2 {
+    margin: 12px 125px;
+    padding: 6px 12px;
+    width: 800px;
+
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+
+.defaultanimation1 {
+    height: 8px;
+    width: 400px;
+    position: absolute;
+    background: orange;
+    top: 87px;
+    right: 183px;
+}
+
+.defaultanimation2 {
+    height: 8px;
+    width: 400px;
+    position: absolute;
+    background: orange;
+    top: 169px;
+    right: 183px;
+}
+
+.defaultanimation3 {
+    height: 8px;
+    width: 400px;
+    position: absolute;
+
+    background: orange;
+    top: 244px;
+    right: 183px;
+}
+
+.animation1 {
+    height: 8px;
+    width: 234px;
+    position: relative;
+    background: #a5a0a0;
+    animation-name: fillup1;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    border-radius: 6px;
+
+    margin: 179px 171px;
+
+}
+
+@keyframes fillup1 {
+    from {
+        width: 0px;
+        background: #212121;
+    }
+
+    to {
+        width: 300px;
+        background: #212121;
+    }
+}
+
+.animation2 {
+    height: 8px;
+    width: 234px;
+    position: relative;
+    background: #212121;
+    /* border-radius: 6px; */
+    animation-name: fillup2;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    top: -75px;
+    border-radius: 6px;
+
+    margin: -30px 171px;
+
+}
+
+@keyframes fillup2 {
+    from {
+        width: 0px;
+        background: #212121;
+    }
+
+    to {
+        width: 200px;
+        background: #212121;
+    }
+}
+
+
+.animation3 {
+    height: 8px;
+    width: 234px;
+    position: relative;
+    background: #212121;
+    /* border-radius: 6px; */
+    animation-name: fillup3;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    top: 74px;
+
+    border-radius: 6px;
+    margin: -82px 171px;
+
+}
+
+@keyframes fillup3 {
+    from {
+        width: 0px;
+        background: #212121;
+    }
+
+    to {
+        width: 222px;
+        background: #212121;
+    }
+}
+
+
+.myskillanimation {
+
+    margin: -93px 7px;
+}
+
+.myskills {
+    display: flex;
+    background: #eff4fd;
+
+    position: relative;
+    height: 335px;
+
+
+}
+
+.videoimage img:hover {
+    border: 3px solid orange;
+}
+
+/* .line {
+    height: 6px;
+    position: absolute;
+    top: 50px;
+    width: 56px;
+    background-color: orange;
+    border-radius: 6px;
+    animation-name: lineforwardmotion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  
+
+}
+
+
+
+@keyframes lineforwardmotion {
+    from {
+        width: 56px;
+    }
+
+    to {
+        width: 150px;
+    }
+} */
+
+.graphicimage img {
+    height: 130px;
+    border-radius: 5600px;
+    display: block;
+    margin: auto;
+    border: 3px solid orange;
+}
+
+.webimage img {
+    height: 130px;
+    border-radius: 5600px;
+    display: block;
+    margin: auto;
+    border: 3px solid orange;
+}
+
+.videoimage img {
+    height: 130px;
+    border-radius: 5600px;
+    display: block;
+    margin: auto;
+    border: 3px solid orange;
+
+}
+
+.skills {
+
+    width: 33%;
+
+}
+
+
+
+.skills p {
+    width: 100%;
+    left: 10%;
+    text-align: center;
+}
+
+
