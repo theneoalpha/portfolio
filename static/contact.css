@@ -145,7 +145,7 @@ h1{
 .navigation{
     display: none;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
     .hero ul{
         display: none;
     }
@@ -492,7 +492,7 @@ h1{
   margin-left: 10rem;
   margin-top: 1rem;
 }
-}@media screen and (max-width: 400px){
+}@media screen and (max-width: 468px){
 .hero{
   width: 54vh;
   height: 116vh;

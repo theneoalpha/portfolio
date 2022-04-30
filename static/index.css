@@ -487,7 +487,7 @@ span {
 
 
 
-@media screen and (max-width: 1100px)  {
+@media screen and (max-width: 1080px)  {
     .image img{
         height: 80%;
     }
@@ -507,86 +507,15 @@ span {
 
 
 
-@media screen and (max-width: 850px)   {
+@media screen and (max-width: 768px)   {
 
-.hero{
-    width: 137vh;
+
+
 }
-.detail h1{
-    font-size: 2.5rem;
-}
-.defaultanimation1{
-    width: 184px;
-    margin: -1px 89px;
-}
-.animation1{
-    margin: 179px -5px;
-}
-.defaultanimation2{
-    
-    right: 263px;
-    width: 197px;
-}
-@keyframes fillup2 {
-    from {
-        width: 0px;
-        background: #212121;
+@media screen and (max-width: 413px)  {
+    *{
+        overflow-x: hidden;
     }
-
-    to {
-        width: 158px;
-        background: #212121;
-    }
-}
-.defaultanimation3{
-    width: 192px;
-    right: 269px;
-}
-.animation3{
-    margin: -82px -5px;
-}
-
-
-
-@keyframes fillup3 {
-    from {
-        width: 0px;
-        background: #212121;
-    }
-
-    to {
-        width: 120px;
-        background: #212121;
-    }
-}
-
-@keyframes fillup1 {
-    from {
-        width: 0px;
-        background: #212121;
-    }
-
-    to {
-        width: 129px;
-        background: #212121;
-    }
-}
-
-
-
-
-
-
-
-
-.animation2{
-    margin: -30px -6px;
-}
-
-}
-
-
-@media screen and (max-width: 450px)  {
   .navigation{
       display: block;
   }  
@@ -735,7 +664,7 @@ span {
 .navigation{
     left: 3rem;
     top: 6rem;
-    zoom: 2.4;
+    
 }
 #menu{
     background: #05010514;
@@ -747,212 +676,4 @@ span {
 
 
 
-    /* end */
-    .hero {
-        background: purple;
-        width: 253vh;
-        height: 365vh;
-        
-    }
-    .skilllist h2{
-        width: 1462px;
-    }
-    .boy{
-        width: 174vh;
-        zoom: 1.3;
-        
-    }
-    .typing-demo{
-        width: 619px;
-        font-size: 6em;
-    }
-    .detail h2{
-        font-size: 5em;
-    }
-    .detail{
-        margin-top: 50vh;
-    }
-    .detail a {
-        font-size: 3em;
-    }
-    .shape{
-        width: 1040px;
-        zoom: 1.3;
-    }
-    .image img{
-        left: 39vh;
-    }
-    .myskills {
-        display: flex;
-        background: #eff4fd;
-        position: relative;
-        height: 1720px;
-        top: 190vh;
-        
-        width: 254vh;
-    }
-    .skilllist h2{
-        font-size: 4rem;
-        padding: 8rem;
-        text-align: center;
-    }
-    .thirdpage h2 {
-        font-size: 8rem;
-        width: 34rem;
-    }
-    .thirdpage {
-        position: relative;
-        width: 256vh;
-        height: 417vh;
-        background: #eff4fd;
-        margin: auto;
-        top: 190vh;
-    }
-    .hambarger {
-        display: block;
-    }
-    
-    html{
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    .skilllist{
-        top: 248px;
-    }
-    .webimage img {
-        height: 70vh;
-    }
-    .videoimage img{
-        height: 70vh;
-    }
-    .graphicimage img {
-        height: 70vh;
-    }
-    .myskillanimation {
-        margin: -93px 7px;
-        position: absolute;
-        left: 57vh;
-        top: 49vh;
-        
-    }
-    .defaultanimation2{
-        width: 99vh;
-        top: 102vh;
-        right: -96vh;
-        position: absolute;
-        height: 3vh;
-    }
-    .animation1{
-        top: 30vh;
-        display: block;
-        height: 3vh;
-        position: absolute;
-    }
-    @keyframes fillup1 {
-        0% {
-            width: 0px;
-            background: #212121;
-        }
-        
-        100% {
-            width: 483px;
-            background: #212121;
-        }
-    }
-    .animation2{
-        top: 106vh;
-        height: 3vh;
-    position: absolute;
-    }
-    @keyframes fillup2 {
-        0% {
-            width: 0px;
-            background: #212121;
-        }
-        
-        100% {
-            width: 534px;
-            background: #212121;
-        }
-    }
-    
-    .defaultanimation3{
-        top: 157vh;
-        right: -96vh;
-        position: absolute;
-
-        height: 3vh;
-        width: 98vh;
-    }
-    .animation3 {
-        
-        position: absolute;
-        top: 168vh;
-        height: 3vh;
-    }
-    @keyframes fillup3 {
-        0% {
-            width: 0px;
-            background: #212121;
-        }
-        
-        100% {
-            width: 402px;
-            background: #212121;
-        }
-        
-    }
-    
-    
-    .defaultanimation1 {
-        position: absolute;
-        height: 3vh;
-        width: 662px;
-        top: 390px;
-        right: -790px;
-        height: 3vh;
-    }
-
-    .wrapper {
-        
-        margin-left: 41vh;
-        margin-top: 31vh;
-       
-    }
-    .menu{
-        display: none;
-    }
-    
-    .image img {
-        
-        height: 178vh;
-    }
-    .skillcontent {
-        flex-direction: column;
-        width: 441vh;
-        display: block;
-        margin: 43vh 37vh;}
-    .skills p {
-        width: 58vh;
-        display: block;
-        margin: auto;
-    }
-    .skills h3{
-        font-size: 6rem;
-    }
-
-    #footer{
-        position: absolute;
-        top: 999vh;
-    }
-
-
-
-    
-
-
-}}
-@media screen and (max-width: 390px){
-    .image{
-        width: 140vh;
-        height: 70%;}}
+  }}  
