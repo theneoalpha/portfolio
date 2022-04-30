@@ -1,402 +1,372 @@
-
-*{
-    margin: 0px;
-    padding: 0px;
-    background-color: #eff4fd;
-    
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #eff4fd;
 }
-@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Wire+One&display=swap");
 .font {
-    font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
 }
-.navigation{
-    display: none;
+.navigation {
+  display: none;
 }
 .wrapper {
-    height: 40px;
-    /*This part is important for centering*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 6%;
-    margin-left: 8%;
-    margin-top: 48px;
-    color: rgb(200, 194, 202);
+  height: 40px;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 6%;
+  margin-left: 8%;
+  margin-top: 48px;
+  color: rgb(200, 194, 202);
 }
 
 .typing-demo {
-    width: 300px;
-    animation: typing 2s steps(12), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 3em;
-    color: purple;
+  width: 300px;
+  animation: typing 2s steps(12), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Architects Daughter", cursive;
+  font-size: 3em;
+  color: purple;
 }
-h1{
-    font-family: 'Architects Daughter', cursive;
-    text-align: center;
+h1 {
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
 }
 @keyframes typing {
-    from {
-        width: 0
-    }
+  from {
+    width: 0;
+  }
 }
 
 @keyframes blink {
-    50% {
-        border-color: transparent
-    }
+  50% {
+    border-color: transparent;
+  }
 }
 
 .hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: #eff4fd;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #eff4fd;
 }
 
-
 .line1 {
-    height: 2px;
-    width: 16px;
-    background: black;
-    right: 62px;
-    position: fixed;
-    display: none;
+  height: 2px;
+  width: 16px;
+  background: black;
+  right: 62px;
+  position: fixed;
+  display: none;
 }
 
 .hambarger {
-    display: none;
+  display: none;
 }
 
 nav {
-    display: flex;
-    width: 100%;
-    margin: auto;
-    padding: 20px 0px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 12px 20px;
-
+  display: inline-block;
+  list-style: none;
+  margin: 12px 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.4rem;
-    font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
-
 
 nav ul li a:hover {
-    color: grey;
-
-}
-.item h2{
-    text-align: center;
-}
-
-.services{
-    width: 100%;
-    height: 140vh;
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-}
-.first{
-    display: flex;
-    flex-direction: row;
-    width: 75%;
-    margin: auto;
-
-}
-.second{
-    display: flex;
-    flex-direction: row;
-    width: 75%;
-   margin: auto;
-}
-.item{
-    width: 250px;
-    border: 2px solid white;
-    height: 300px;
-    background-color: purple;
-    
-    padding: 25px;
-    border-radius: 23px;
-    margin: 2px 20px;
-    
+  color: grey;
 }
 .item h2 {
-    background-color: purple;
-    font-family: 'Architects Daughter', cursive;
-}
-.item p{
-    background-color: purple;
+  text-align: center;
 }
 
-.item img{
-    height: 9rem;
-    width: 14rem;
-    border-radius: 2rem;
-    border: 4px solid #fff;
-    
+.services {
+  width: 100%;
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+}
+.item {
+  width: 250px;
+  border: 2px solid white;
+  height: 300px;
+  background-color: purple;
+
+  padding: 25px;
+  border-radius: 23px;
+  margin: 2px 20px;
+}
+.item h2 {
+  background-color: purple;
+  font-family: "Architects Daughter", cursive;
+}
+.item p {
+  background-color: purple;
 }
 
-#footer{
-    background-color: #fff;
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    padding-top: 8px;
-    font-size: 20px;
-    font-weight: bold;
+.item img {
+  height: 9rem;
+  width: 14rem;
+  border-radius: 2rem;
+  border: 4px solid #fff;
+}
+
+#footer {
+  background-color: #fff;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 20px;
+  font-weight: bold;
 }
 #footer a {
-    text-decoration: none;
-    color: black;
-    background-color: purple;
+  text-decoration: none;
+  color: black;
+  background-color: purple;
 }
-#footer{
-    background-color: purple;
+#footer {
+  background-color: purple;
 }
 @media screen and (max-width: 1080px) {
-
-    .first{
-        width: 139vh;
-    }
-    .second{
-        width: 139vh;
-    }
 }
 @media screen and (max-width: 768px) {
-    .first {
+}
+
+@media screen and (max-width: 468px) {
+  .first {
     flex-direction: column;
-    align-items: center;
-    margin-top: 35vh;
-}
-.typing-demo {
-    width: 300px;
-    margin-left: 386px;
-    animation: typing 2s steps(12), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 3em;
-    color: purple;
-    position: absolute;
-    top: 19vh;
-}
-    .second{
-        flex-direction: column;
-        align-items: center;
-    }
-    .item{
-        align-items: center;
-        justify-content: center;
-        margin: 4vh 0;
-        width: 60%;
-    }
-    .item img{
-        margin: 0 9rem;
-    }
-    .menu{
-        
-            position: absolute;
-            
-            right: -54vh;
-            top: 8vh;
-        
-    }
-    #footer{
-        width: 140vh;
-        top: 414vh;
-        position: absolute;
-        background-color: purple;
+  }
+  .second {
+    flex-direction: column;
+  }
 
-    }
-
-}
-@media screen and (max-width: 468px)
-{
-    .hero ul{
-        display: none;
-    }
-    item h2{
-        color: white;
-    }
-    h1 {
-        
-        position: absolute;
-        width: 60rem;
-        margin: 12vh 0vh;
-    }
-    .navigation{
-        display: block;
-    }  
-      #menuToggle
-  {
+  .navigation {
+    display: block;
+  }
+  #menuToggle {
     display: block;
     position: relative;
-    top: 50px;
-    left: 50px;
-    
+    top: 31px;
+    left: 23px;
+
     z-index: 1;
-    
+
     -webkit-user-select: none;
     user-select: none;
   }
-  
+
   #menuToggle a {
-      text-decoration: none;
-      color: orange;
-      transition: color 0.3s ease;
-      background-color: transparent;
+    text-decoration: none;
+    color: orange;
+    transition: color 0.3s ease;
+    font-size: 0.9rem;
+    padding: 0.7000000000000002rem;
   }
-  
-  #menuToggle a:hover
-  {
+
+  #menuToggle a:hover {
     color: tomato;
   }
-  
-  
-  #menuToggle input
-  {
+
+  #menuToggle input {
     display: block;
     width: 40px;
     height: 32px;
     position: absolute;
     top: -7px;
     left: -5px;
-    
+
     cursor: pointer;
-    
+
     opacity: 0; /* hide this */
     z-index: 2; /* and place it over the hamburger */
-    
+
     -webkit-touch-callout: none;
   }
-  
+
   /*
-   * Just a quick hamburger
-   */
-  #menuToggle span
-  {
+       * Just a quick hamburger
+       */
+  #menuToggle span {
     display: block;
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    
+
     background: #cdcdcd;
     border-radius: 3px;
-    
+
     z-index: 1;
-    
+
     transform-origin: 4px 0px;
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
-  
-  #menuToggle span:first-child
-  {
+
+  #menuToggle span:first-child {
     transform-origin: 0% 0%;
   }
-  
-  #menuToggle span:nth-last-child(2)
-  {
+
+  #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
-  
+
   /* 
-   * Transform all the slices of hamburger
-   * into a crossmark.
-   */
-  #menuToggle input:checked ~ span
-  {
+       * Transform all the slices of hamburger
+       * into a crossmark.
+       */
+  #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
   }
-  
+
   /*
-   * But let's hide the middle one.
-   */
-  #menuToggle input:checked ~ span:nth-last-child(3)
-  {
+       * But let's hide the middle one.
+       */
+  #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-  
+
   /*
-   * Ohyeah and the last one should go the other direction
-   */
-  #menuToggle input:checked ~ span:nth-last-child(2)
-  {
+       * Ohyeah and the last one should go the other direction
+       */
+  #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
-  
+
   /*
-   * Make this absolute positioned
-   * at the top left of the screen
-   */
-  #menu
-  { display: block;
+       * Make this absolute positioned
+       * at the top left of the screen
+       */
+  #menu {
     position: absolute;
-    width: 83px;
+    width: 488px;
     margin: -100px 0 0 -50px;
     padding: 50px;
+    height: 23px;
     padding-top: 125px;
-    
+
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
-    
+
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
-  
-  #menu li
-  {
-      display: flex;
-    padding: 1px 0;
+
+  #menu li {
     font-size: 22px;
-    background-color: transparent;
   }
-  
+
   /*
-   * And let's slide it in from the left
-   */
-  #menuToggle input:checked ~ ul
-  {
+       * And let's slide it in from the left
+       */
+  #menuToggle input:checked ~ ul {
     transform: none;
   }
-  
-  
-  
-  .navigation{
-      left: 3rem;
-      top: 6rem;
-      zoom: 2.4;
+
+  .navigation {
+    left: 3rem;
+    top: 6rem;
   }
-  #menu{
-      background: #05010514;
-      
-      color: orange;
+  #menu {
+    background: #05010514;
+    display: flex;
+
+    color: orange;
   }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    margin: 16px 11px;
+  }
+
+  .first {
+    flex-direction: column;
+  }
+
+  .second {
+    flex-direction: column;
+  }
+  .item h2 {
+    font-size: 1rem;
+    width: 32vh;
+    height: 6vh;
+  }
+  .item p {
+    font-size: 0.8rem;
+  }
+  .item img {
+    height: 5rem;
+    
+    width: 11rem;
+}
+  .item {
+    margin: 31px auto;
+  }
+
+#footer {
+  font-size: 0.8rem;
   
-  
+}
+.item {
+  width: 30vh;
+  height: 34vh;
+}
+.typing-demo {
+  font-size: 1.7rem;
+  width: 22vh;
+  position: absolute;
+  left: 23vh;
+}
+#menu a {
+  background-color: transparent;
+}.services{
+    height: auto;
+}
+
+
+
+}@media screen and (max-width: 378px){
+    .typing-demo{
+        width: 27vh;
+    }
 }
