@@ -4,8 +4,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-
+    
+font-family: 'Architects Daughter', cursive;
 }
 .navigation{
     display: none;
@@ -736,26 +736,26 @@ span {
     width: 100%;
 }
 .defaultanimation1{
-    top: 31vh;
-    right: 14vh;
+    top: 32vh;
+    right: 24vh;
     width: 29vh;
 }
 .defaultanimation3{
-    top: 78vh;
-    right: 14vh;
+    top: 82vh;
+    right: 26vh;
     width: 29vh;
 }
 .defaultanimation2{
-    top: 55vh;
-    right: 14vh;
+    top: 57vh;
+    right: 25vh;
     width: 29vh;
 }
 .animation1{
-    top: -48.6vh;
-    left: -14vh;
-}.animation2{
-    top: -48vh;
-    left: -14vh;
+    top: -51.6vh;
+    left: -9vh;
+}.animation3 {
+    top: -15vh;
+    left: -9.5vh;
 }.animation3{
     top: -14vh;
     left: -13.5vh;
