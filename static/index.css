@@ -33,7 +33,7 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
     font-size: 3em;
 }
 
@@ -105,14 +105,14 @@ nav ul li a:hover {
 
 .detail h1 {
     font-size: 50px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
 }
 span{
     font-size: 50px;
 }
 span {
     color: orange;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
 }
 
 .detail h2 {
@@ -273,7 +273,7 @@ span {
     padding: 6px 12px;
     width: 800px;
 
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
 
 }
 
