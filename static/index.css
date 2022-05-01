@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     
-font-family: 'Architects Daughter', cursive;
+
 }
 .navigation{
     display: none;
@@ -120,7 +120,7 @@ span {
     font-size: 38px;
     opacity: 0.4;
     
-    font-family: 'Architects Daughter', cursive;
+  
     top: 150px;
 }
 
@@ -471,9 +471,7 @@ span {
   header nav {
     display: none;
   }
-  *{
-    font-family: 'Architects Daughter', cursive;
-  }
+  
 
   #hamburger-icon {
     display: block;
@@ -491,9 +489,7 @@ span {
 
 
 @media screen and (max-width: 1080px)  {
-    *{
-        font-family: 'Architects Daughter', cursive;
-    }
+    
     .image img{
         height: 80%;
     }
@@ -515,9 +511,7 @@ span {
 
 
 @media screen and (max-width: 468px)  {
-    *{
-        font-family: 'Architects Daughter', cursive;
-    }
+    
     .typing-demo{
         font-size: 1.8rem;
         width: 11.8rem;
@@ -808,9 +802,7 @@ span {
 }
 
   }} @media only screen and (max-width: 415px) and (min-width: 400px) {
-      *{
-        font-family: 'Architects Daughter', cursive;
-      }
+      
       .hero{
         width: 53vh;
         height: 89vh;
@@ -823,9 +815,7 @@ span {
         top: 262vh;}
   }
   @media  screen and (max-width:420px)   {
-      *{
-        font-family: 'Architects Daughter', cursive;
-      }
+     
       
     .thirdpage {
         height: 138vh;
@@ -853,9 +843,7 @@ span {
   }
   
   @media  screen and (max-width:417px) and (min-width:410px){
-      *{
-        font-family: 'Architects Daughter', cursive;
-      }
+      
 .skilllist {
     height: 404px;
 }
@@ -888,9 +876,7 @@ span {
             }
           }
   @media  screen and (max-width:376px) and (min-width: 365px){
-      *{
-        font-family: 'Architects Daughter', cursive;
-      }
+     
     .defaultanimation1{
     top: 29vh;
     right: 13vh;
