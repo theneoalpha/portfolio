@@ -811,9 +811,7 @@ span {
       .thirdpage {
         height: 116vh;
     }
-    #footer {
-        top: 262vh;}
-  }
+    
   @media  screen and (max-width:420px)   {
      
       
@@ -918,4 +916,4 @@ span {
     .skilllist {
         height: 400px;
     }
-  }
+  }} 
