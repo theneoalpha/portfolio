@@ -142,22 +142,13 @@ span {
     color: white;
     text-align: center;
     padding-top: 8px;
-    font-size: 1.3rem;
+    font-size: 20px;
     margin-top: auto;
     
 }
 #footer a{
     text-decoration: none;
     color: white;
-}
-.progress{
-    position: absolute;
-}
-.progress-bar{
-    position: absolute;
-}
-.myskillanimation{
-    width: 100%;
 }
 .image {
     width: 45%;
@@ -225,8 +216,8 @@ span {
 
 .thirdpage h2 {
     display: block;
+    width: 150px;
     margin: auto;
-    text-align: center;
 }
 
 .skillcontent {
@@ -258,7 +249,7 @@ span {
 .thirdpage {
     position: relative;
     width: 100%;
-    height: 112vh;
+    height: 65vh;
     background: #eff4fd;
     margin: auto;
 
@@ -697,10 +688,10 @@ span {
 .myskills{
     top: 36vh;
 }
-/* .thirdpage{
+.thirdpage{
     height: 150vh;
    
-} */
+}
 .hero{
     overflow-x: hidden;
 }
@@ -817,16 +808,16 @@ span {
         height: 89vh;
         overflow-x: hidden;
       }
-      /* .thirdpage {
+      .thirdpage {
         height: 116vh;
-    } */
+    }
     
   @media  screen and (max-width:420px)   {
      
       
-    /* .thirdpage {
+    .thirdpage {
         height: 138vh;
-    } */
+    }
        .defaultanimation1 {
     top: 24vh;
     right: 9vh;
@@ -888,10 +879,10 @@ span {
     top: 29vh;
     right: 13vh;
 } .skilllist {
-    height: 404px;}
-/* }.thirdpage {
+    height: 404px;
+}.thirdpage {
     height: 144vh;
-} */
+}
 .animation1{
     top: -50.6vh;
 }.defaultanimation2 {
@@ -926,6 +917,3 @@ span {
         height: 400px;
     }
   }} 
-  html{
-    font-size : 62.5% ;
-}
