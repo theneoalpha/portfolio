@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
 
 .font {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Architects Daughter', sans-serif;
 }
 .wrapper {
     height: 40px;
@@ -27,7 +27,7 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Architects Daughter', sans-serif;
     font-size: 3em;
 }
 
@@ -121,10 +121,10 @@ nav ul li a:hover {
     color: white;
     border-radius: 23px;
     font-size: 1.2em;
-font-family: 'Architects Daughter', cursive;
+    font-family: 'Architects Daughter', sans-serif;
 }
 h1{
-    font-family: 'Architects Daughter', cursive;
+  font-family: 'Architects Daughter', sans-serif;
     text-align: center;
     margin-top: 45px;
 }
