@@ -97,7 +97,57 @@ nav ul li a:hover {
     color: grey;
 
 }
+/* Animation one */
 
+
+.myskillanimat {
+    position: absolute
+    
+    ;
+    margin-top: 6rem;
+  }
+  
+  .progress {
+    background: orange;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 0.4rem;
+    margin: 2rem 2rem;
+    padding: 6px 0;
+    width: 19rem;
+  }
+  
+  .progress-value {
+    animation: load 10s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    animation-delay: 2s;
+    border-radius: 100px;
+    background: black;
+    height: 0.4rem;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }
+.first{
+    top: 4rem;
+}
+.third{
+    top: 12rem;
+}
+.second{
+    top: 8rem;
+}
+
+
+
+/* end */
 .detail {
     margin-left: 8%;
     margin-top: 8%;
@@ -811,6 +861,15 @@ span {
 }
 .thirdpage{
     height: 150vh;
+}
+.first{
+    top: 5rem;
+}
+.second{
+    top: 15rem;
+}
+.third{
+    top: 26rem;
 }
 
   }} @media only screen and (max-width: 415px) and (min-width: 400px) {
