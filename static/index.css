@@ -797,8 +797,7 @@ span {
 }
 #footer{
    
-    position: absolute;
-    font-size: 0.9rem;
+   margin-top: auto;
 }
 
   }} @media only screen and (max-width: 415px) and (min-width: 400px) {
@@ -881,7 +880,7 @@ span {
     top: 29vh;
     right: 13vh;
 } .skilllist {
-    height: 373px;
+    height: 404px;
 }.thirdpage {
     height: 144vh;
 }
