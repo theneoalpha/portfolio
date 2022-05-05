@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -155,14 +155,14 @@ nav ul li a:hover {
 
 .detail h1 {
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 span{
     font-size: 50px;
 }
 span {
     color: orange;
-    font-family: 'Baloo Bhaijaan 2';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .detail h2 {
@@ -170,7 +170,7 @@ span {
     font-size: 38px;
     opacity: 0.4;
     
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     top: 150px;
 }
 
