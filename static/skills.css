@@ -4,9 +4,7 @@
   background-color: #eff4fd;
 }
 @import url("https://fonts.googleapis.com/css2?family=Wire+One&display=swap");
-.font {
-  font-family: "Architects Daughter", cursive;
-}
+
 .navigation {
   display: none;
 }
@@ -28,12 +26,12 @@
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: "Architects Daughter", cursive;
+  
   font-size: 3em;
   color: purple;
 }
 h1 {
-  font-family: "Architects Daughter", cursive;
+ 
   text-align: center;
 }
 @keyframes typing {
@@ -128,7 +126,7 @@ nav ul li a:hover {
 }
 .item h2 {
   background-color: purple;
-  font-family: "Architects Daughter", cursive;
+  
 }
 .item p {
   background-color: purple;
@@ -157,10 +155,6 @@ nav ul li a:hover {
 }
 #footer {
   background-color: purple;
-}
-@media screen and (max-width: 1080px) {
-}
-@media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 468px) {

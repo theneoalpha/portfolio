@@ -116,7 +116,7 @@ nav ul li a:hover {
     padding: 0 5px;
     display: flex;
     height: 0.4rem;
-    margin: 2rem 2rem;
+    margin: -4rem 48rem;
     padding: 6px 0;
     width: 19rem;
   }
@@ -333,131 +333,9 @@ span {
     padding: 6px 12px;
     width: 800px;
 
-    /* font-family: 'Baloo Bhaijaan 2', cursive; */
+    
 
 }
-
-.defaultanimation1 {
-    height: 8px;
-    width: 400px;
-    position: absolute;
-    background: orange;
-    top: 87px;
-    right: 183px;
-}
-
-.defaultanimation2 {
-    height: 8px;
-    width: 400px;
-    position: absolute;
-    background: orange;
-    top: 169px;
-    right: 183px;
-}
-
-.defaultanimation3 {
-    height: 8px;
-    width: 400px;
-    position: absolute;
-
-    background: orange;
-    top: 244px;
-    right: 183px;
-}
-
-.animation1 {
-    height: 8px;
-    width: 234px;
-    position: relative;
-    background: #a5a0a0;
-    animation-name: fillup1;
-    animation-duration: 8s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-    border-radius: 6px;
-
-    margin: 179px 171px;
-
-}
-
-@keyframes fillup1 {
-    from {
-        width: 0px;
-        background: #212121;
-    }
-
-    to {
-        width: 300px;
-        background: #212121;
-    }
-}
-
-.animation2 {
-    height: 8px;
-    width: 234px;
-    position: relative;
-    background: #212121;
-    /* border-radius: 6px; */
-    animation-name: fillup2;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    top: -75px;
-    border-radius: 6px;
-
-    margin: -30px 171px;
-
-}
-
-@keyframes fillup2 {
-    from {
-        width: 0px;
-        background: #212121;
-    }
-
-    to {
-        width: 200px;
-        background: #212121;
-    }
-}
-
-
-.animation3 {
-    height: 8px;
-    width: 234px;
-    position: relative;
-    background: #212121;
-    /* border-radius: 6px; */
-    animation-name: fillup3;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    top: 74px;
-
-    border-radius: 6px;
-    margin: -82px 171px;
-
-}
-
-@keyframes fillup3 {
-    from {
-        width: 0px;
-        background: #212121;
-    }
-
-    to {
-        width: 222px;
-        background: #212121;
-    }
-}
-
-
-.myskillanimation {
-
-    margin: -93px 7px;
-}
-
 .myskills {
     display: flex;
     background: #eff4fd;
@@ -553,20 +431,7 @@ span {
     .image img{
         height: 80%;
     }
-    @keyframes fillup1 {
-    from {
-        width: 0px;
-        background: #212121;
-    }
-
-    to {
-        width: 169px;
-        background: #212121;
-    }}
-    .defaultanimation1{
-        width: 182px;
-    }
-
+    
 
 
 
@@ -678,18 +543,13 @@ span {
     transform: rotate(0deg) scale(0.2, 0.2);
   }
   
-  /*
-   * Ohyeah and the last one should go the other direction
-   */
+ 
   #menuToggle input:checked ~ span:nth-last-child(2)
   {
     transform: rotate(-45deg) translate(0, -1px);
   }
   
-  /*
-   * Make this absolute positioned
-   * at the top left of the screen
-   */
+ 
   #menu
   {
     position: absolute;
@@ -789,64 +649,6 @@ span {
 }.skilllist{
     width: 100%;
 }
-.defaultanimation1{
-    top: 32vh;
-    right: 24vh;
-    width: 29vh;
-}
-.defaultanimation3{
-    top: 82vh;
-    right: 26vh;
-    width: 29vh;
-}
-.defaultanimation2{
-    top: 57vh;
-    right: 25vh;
-    width: 29vh;
-}
-.animation1{
-    top: -51.6vh;
-    left: -9vh;
-}.animation3 {
-    top: -15vh;
-    left: -9.5vh;
-}.animation3{
-    top: -14vh;
-    left: -13.5vh;
-}
-
-
-@keyframes fillup2 {
-    0% {
-        width: 0px;
-        background: #212121;
-    }
-    
-    100% {
-        width: 176px;
-        background: #212121;
-    }
-}
-@keyframes fillup3{
-    0% {
-        width: 0px;
-        background: #212121;
-    }
-    
-    100% {
-        width: 140px;
-        background: #212121;
-    }
-} @keyframes fillup1 {
-    0% {
-        width: 0px;
-        background: #212121;
-    }
-    
-    100% {
-        width: 148px;
-        background: #212121;
-    }
 }
 .skillcontent{
     flex-direction: column;
@@ -871,68 +673,29 @@ span {
 .third{
     top: 26rem;
 }
+.progress{
+    margin: 2rem 2rem;
+}
 
-  }} @media only screen and (max-width: 415px) and (min-width: 400px) {
+  }
+   @media only screen and (max-width: 415px) and (min-width: 400px) {
       
       .hero{
         width: 53vh;
         height: 89vh;
         overflow-x: hidden;
       }
-      /* .thirdpage {
-        height: 116vh;
-    } */
-    
-  @media  screen and (max-width:420px)   {
-     
       
-    /* .thirdpage {
-        height: 138vh;
-    } */
-       .defaultanimation1 {
-    top: 24vh;
-    right: 9vh;
-    width: 29vh;
-}.animation1 {
-    top: -38.6vh;
-    left: -13vh;
-}.defaultanimation2 {
-    top: 44vh;
-    right: 9vh;
-}.animation2 {
-    top: -37vh;
-    left: -14vh;
-}.defaultanimation3 {
-    top: 59vh;
-    right: 10vh;
-    width: 29vh;
-}
-
-
-  }
+  
   
   @media  screen and (max-width:417px) and (min-width:410px){
       
 .skilllist {
     height: 404px;
 }
-    .defaultanimation1 {
-        top: 24vh;
-        right: 12vh;}
-        .animation1 {
-            top: -35.6vh;
-            left: -8vh;
-        }.defaultanimation2 {
-            top: 40vh;
-            right: 12vh;
-        }.animation2{
-            left: -8vh;
-        }.defaultanimation3{
-            top: 56vh;
-    right: 11vh;}
-    .animation3 {
-        top: -13vh;
-        left: -7.5vh;
+    
+    .thirdpage{
+        top: 8rem;
     }
         }
 
@@ -946,39 +709,13 @@ span {
           }
   @media  screen and (max-width:376px) and (min-width: 365px){
      
-    .defaultanimation1{
-    top: 29vh;
-    right: 13vh;
-} .skilllist {
+  .skilllist {
     height: 404px;}
-/* }.thirdpage {
-    height: 144vh;
-} */
-.animation1{
-    top: -50.6vh;
-}.defaultanimation2 {
-    top: 52vh;
-    right: 13vh;
-}.animation2 {
-    top: -52vh;
-    left: -13vh;
-}.defaultanimation3{
-    top: 77vh;
-    right: 14vh;
-}.animation3 {
-    top: -15vh;}
+
+
   }
   @media  screen and (max-width:362px){
-    .animation1 {
-        top: -47.6vh;}
-        .animation2 {
-            top: -49vh;
-            left: -14vh;
-        }.defaultanimation3 {
-            top: 69vh;
-            right: 10vh;
-            width: 29vh;
-        }.skilllist {
+   .skilllist {
             height: 400px;
         }#menuToggle a {
             padding: -0.3000000000000007rem;
@@ -988,6 +725,4 @@ span {
         height: 400px;
     }
   }} 
-  /* html{
-    font-size : 62.5% ;
-} */
+  
