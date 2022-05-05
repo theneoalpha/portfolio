@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -155,7 +155,7 @@ nav ul li a:hover {
 
 .detail h1 {
     font-size: 50px;
-    font-family: 'Baloo Bhaijaan 2';
+    font-family: 'Roboto', sans-serif;
 }
 span{
     font-size: 50px;
@@ -170,7 +170,7 @@ span {
     font-size: 38px;
     opacity: 0.4;
     
-  
+    font-family: 'Roboto', sans-serif;
     top: 150px;
 }
 
