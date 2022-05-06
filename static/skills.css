@@ -344,8 +344,8 @@ nav ul li a:hover {
   
 }
 .item {
-  width: 30vh;
-  height: 34vh;
+  width: 45vh;
+  height: 52vh;
 }
 .typing-demo {
   font-size: 1.7rem;
@@ -357,6 +357,9 @@ nav ul li a:hover {
   background-color: transparent;
 }.services{
     height: auto;
+}
+.thirdpage {
+  height: 204vh;
 }
 
 
