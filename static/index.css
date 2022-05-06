@@ -121,7 +121,7 @@ nav ul li a:hover {
     width: 19rem;
   }
   
-  .progress-value {
+  /* .progress-value {
     animation: load 10s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     animation-delay: 2s;
@@ -129,12 +129,54 @@ nav ul li a:hover {
     background: black;
     height: 0.4rem;
     width: 0;
-  }
-  
-  @keyframes load {
+  } */
+  .firstanimation {
+    animation: load1 10s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    animation-delay: 2s;
+    border-radius: 100px;
+    background: black;
+    height: 0.4rem;
+    width: 0;}
+    .secondanimation {
+    animation: load2 10s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    animation-delay: 2s;
+    border-radius: 100px;
+    background: black;
+    height: 0.4rem;
+    width: 0;}
+    .thirdanimation {
+    animation: load3 10s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    animation-delay: 2s;
+    border-radius: 100px;
+    background: black;
+    height: 0.4rem;
+    width: 0;}
+  /* @keyframes load {
     0% { width: 0; }
     100% { width: 68%; }
-  }
+  } */
+  
+    @keyframes load1 {
+        0% { width: 0; }
+        100% { width: 58%; }
+      }
+
+  
+  
+    @keyframes load2 {
+        0% { width: 0; }
+        100% { width: 78%; }
+      }
+  
+  
+    @keyframes load3 {
+        0% { width: 0; }
+        100% { width: 48%; }
+      }
+  
 .first{
     top: 4rem;
 }
