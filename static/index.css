@@ -17,7 +17,7 @@
 
 .wrapper {
     height: 40px;
-    /*This part is important for centering*/
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    /* font-family: 'Architects Daughter', cursive; */
+  
     font-size: 3em;
 }
 
@@ -720,52 +720,6 @@ span {
     margin: 2rem 2rem;
 }
 
-  }
-   @media only screen and (max-width: 415px) and (min-width: 400px) {
-      
-      .hero{
-        width: 53vh;
-        height: 89vh;
-        overflow-x: hidden;
-      }
-      
-  
-  
-  @media  screen and (max-width:417px) and (min-width:410px){
-      
-.skilllist {
-    height: 404px;
-}
-    
-    .thirdpage{
-        top: 8rem;
-    }
-        }
-
-        @media  screen and (max-width:413px){
-            #menu{
-                width: 422;
-            }
-            .skilllist {
-                height: 416px;
-            }
-          }
-  @media  screen and (max-width:376px) and (min-width: 365px){
-     
-  .skilllist {
-    height: 404px;}
-
-
-  }
-  @media  screen and (max-width:362px){
-   .skilllist {
-            height: 400px;
-        }#menuToggle a {
-            padding: -0.3000000000000007rem;
-        }
-  }  @media  screen and (max-width:394px) and (min-width:390px){
-    .skilllist {
-        height: 400px;
-    }
-  }} 
+  }@media only screen and (max-width: 415px) and (min-width: 400px) {.hero{width: 53vh;height: 89vh;overflow-x: hidden;}
+  @media  screen and (max-width:417px) and (min-width:410px){.skilllist { height: 404px;}.thirdpage{top: 8rem;}}@media  screen and (max-width:413px){#menu{width: 422;}.skilllist {height: 416px;}}@media  screen and (max-width:376px) and (min-width: 365px){.skilllist {height: 404px;}}@media  screen and (max-width:362px){.skilllist {height: 400px;}#menuToggle a {padding: -0.3000000000000007rem;}}  @media  screen and (max-width:394px) and (min-width:390px){.skilllist {height: 400px;}}} 
   
